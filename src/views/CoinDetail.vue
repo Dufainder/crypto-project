@@ -178,7 +178,6 @@ export default {
     },
     getWebSite(exchange) {
       this.$set(exchange, 'isLoading', true)
-      console.log(exchange.exchangeId, 'lo que mando en exchangeId')
       if (exchange.exchangeId.includes('Crypto.com')) {
         exchange.exchangeId = 'Crypto'
       }
