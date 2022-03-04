@@ -1,4 +1,4 @@
-# platzi-exchange
+# Crypto-Project
 
 ## Project setup
 ```
