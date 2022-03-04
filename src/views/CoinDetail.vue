@@ -185,7 +185,6 @@ export default {
         .getExchange(exchange.exchangeId)
         .then(res => {
           this.$set(exchange, 'url', res.exchangeUrl)
-          console.log(exchange, 'exchange al final')
         })
         .finally(() => {
           this.$set(exchange, 'isLoading', false)
